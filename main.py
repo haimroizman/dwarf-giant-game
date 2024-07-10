@@ -16,6 +16,6 @@ if __name__ == "__main__":
     process_number = 4
     pairs = multiprocess_dwarf_giant_game(input_data, process_number)
     print(pairs)
-    print('______________________________' * 10)
-    for dwarf, giant in pairs:
-        print(f"Dwarf: {dwarf}, Giant: {giant}")
+    # print('______________________________' * 10)
+    # for dwarf, giant in pairs:
+    #     print(f"Dwarf: {dwarf}, Giant: {giant}")
